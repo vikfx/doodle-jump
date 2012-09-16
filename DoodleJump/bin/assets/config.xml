@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<document>
+	<levels>
+		<level>
+			<spacing>55</spacing>
+			<boardsPct>
+				<board>82</board>
+				<board>5</board>
+				<board>3</board>
+				<board>2</board>
+				<board>8</board>
+			</boardsPct>
+			<bonusPct>
+				<bonus>5</bonus>
+				<bonus>1</bonus>
+			</bonusPct>
+			<gravity>0.4</gravity>
+			<pulse>11</pulse>
+			<moveH>4.2</moveH>
+			<score>5000</score>
+		</level>
+		
+		<level>
+			<spacing>80</spacing>
+			<boardsPct>
+				<board>72</board>
+				<board>10</board>
+				<board>3</board>
+				<board>8</board>
+				<board>8</board>
+			</boardsPct>
+			<bonusPct>
+				<bonus>3</bonus>
+				<bonus>2</bonus>
+			</bonusPct>
+			<gravity>0.7</gravity>
+			<pulse>16</pulse>
+			<moveH>5</moveH>
+			<score>10000</score>
+		</level>
+		
+		<level>
+			<spacing>95</spacing>
+			<boardsPct>
+				<board>50</board>
+				<board>5</board>
+				<board>5</board>
+				<board>15</board>
+				<board>25</board>
+			</boardsPct>
+			<bonusPct>
+				<bonus>1</bonus>
+				<bonus>4</bonus>
+			</bonusPct>
+			<gravity>2</gravity>
+			<pulse>30</pulse>
+			<moveH>7.3</moveH>
+			<score>30000</score>
+		</level>
+		
+		<level>
+			<spacing>110</spacing>
+			<boardsPct>
+				<board>30</board>
+				<board>2</board>
+				<board>1</board>
+				<board>32</board>
+				<board>35</board>
+			</boardsPct>
+			<bonusPct>
+				<bonus>0</bonus>
+				<bonus>7</bonus>
+			</bonusPct>
+			<gravity>3</gravity>
+			<pulse>40</pulse>
+			<moveH>8.5</moveH>
+			<score>40000</score>
+		</level>
+	</levels>
+
+	<gameImages>
+		<characterUP>assets/images/character_up.png</characterUP>
+		<characterDOWN>assets/images/character_down.png</characterDOWN>
+		<characterStone>assets/images/character_stoned.png</characterStone>
+		<background>assets/images/fall_bkg.png</background>
+		<plateau1>assets/images/plateau01.png</plateau1>
+		<plateau2>assets/images/plateau02.png</plateau2>
+		<plateau3>assets/images/plateau03.png</plateau3>
+		<plateau4>assets/images/plateau04.png</plateau4>
+		<plateau5>assets/images/plateau05.png</plateau5>
+		<bonus1>assets/images/piece.png</bonus1>
+		<bonus2>assets/images/champi.png</bonus2>
+	</gameImages>
+	
+	<interfaceImages>
+		<image>assets/images/bkg_start.png</image>
+		<image>assets/images/bkg_rules.png</image>
+		<image>assets/images/bkg_loose.png</image>
+		<image>assets/images/btn_play.png</image>
+		<image>assets/images/btn_rules.png</image>
+		<image>assets/images/btn_easy.png</image>
+		<image>assets/images/btn_normal.png</image>
+		<image>assets/images/btn_hard.png</image>
+		<image>assets/images/btn_extreme.png</image>
+	</interfaceImages>
+	
+</document>
