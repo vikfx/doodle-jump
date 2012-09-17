@@ -22,19 +22,23 @@
 		};
 		swfobject.embedSWF(
 			"DoodleJump.swf", 
-			"altContent", "100%", "100%", "10.0.0", 
+			"altContent", "320px", "490px", "10.0.0", 
 			"expressInstall.swf", 
 			flashvars, params, attributes);
 	</script>
 	<style>
-		html, body { height:100%; overflow:hidden; }
+		html, body { height:100%; overflow:hidden; background-color :#222222;}
 		body { margin:0; }
+		#DoodleJump{width :320px; margin : 0; border :solid 5px #111111;}
+		#content{width :330px; margin : 50px auto 0 auto;
 	</style>
 </head>
 <body>
-	<div id="altContent">
-		<h1>DoodleJump</h1>
-		<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
+	<div id="content">
+		<div id="altContent">
+			<h1>DoodleJump</h1>
+			<p><a href="http://www.adobe.com/go/getflashplayer">Get Adobe Flash player</a></p>
+		</div>
 	</div>
 </body>
 </html>
